@@ -2,7 +2,7 @@ Para crear un proyecto:
 
 1. Creamos la carpeta del proyecto y vamos a esa carpeta
 2. Con el Dockerfile, el requirement.txt y el docker-compose.yml ejecutamos el siguiente comando para crear el proyecto
-`docker <nombre> . `
+`docker compose run web django-admin startproject <nombre> . `
 3. A continuación chequeamos que todo esté correcto y entramos en el localhost para ver que en efecto esta corriendo el servicio.
 4. Una vez hecho esto creamos la app, utilizando el siguiente comando `docker compose run --rm web python manage.py startapp <nombre>App `
 5. En installed apps, en `settings.py`, añadimos el nombre de la app.

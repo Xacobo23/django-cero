@@ -1,0 +1,9 @@
+In the web of the example, password generator, add:
+
+A link to go to the home page from the page with the generated password.
+A link to a new page "About". The contents of this page are plain text.
+Prepare a pdf document with the following screen captures:
+
+The directory tree with the new files that you created.
+The screens on your web.
+Submit the pdf document here, in this task. 
