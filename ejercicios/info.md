@@ -4,3 +4,7 @@
   #Pode facer falta poñer a primeira barra para que funcione
 
   ````
+
+
+- [ ] Meterlle o formulario
+- [ ] Mirar os modelos e o usar codigo desde o python
