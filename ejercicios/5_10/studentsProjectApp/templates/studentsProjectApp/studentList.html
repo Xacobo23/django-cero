@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="{% url 'home' %}">Atras</a>
+    <h2>Lista de Estudiantes</h2>
+    <ul>
+      {% for student in students %}
+      <li><a href="{% url 'studentDetail' student.pk %}">{{ student.name }}, {{ student.degree }}</a></li>
+      {% empty %}
+      <li>The student list is empty</li>
+      {% endfor %}
+    </ul>
+</body>
+</html>
