@@ -10,7 +10,11 @@
 
 <p><strong>Name:</strong> {{ student.name }}</p>
 <p><strong>Degree:</strong> {{ student.degree }}</p>
+<a href="{% url 'studentUpdate' student.pk %}">Update</a>
+<a href="{% url 'studentDelete' student.pk%}">Delete</a>
+<br>
 <a href="{% url 'studentList' %}">Back to list</a>
+
 
 </body>
 </html>
